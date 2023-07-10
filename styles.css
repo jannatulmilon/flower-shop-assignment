@@ -41,5 +41,13 @@ body {
     width: 640;
     height: 500px;
 }
+.all-btn{
+    height: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    border: 0;
+    background-color: rosybrown;
+    color: antiquewhite;
+}
 
 /* header styles ends */
