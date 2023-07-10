@@ -41,7 +41,8 @@ body {
     width: 640;
     height: 500px;
 }
-.all-btn{
+
+.all-btn {
     height: 30px;
     padding: 5px;
     margin-top: 20px;
@@ -51,3 +52,11 @@ body {
 }
 
 /* header styles ends */
+
+
+/* main styles starts */
+.bonus-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
