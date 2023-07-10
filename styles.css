@@ -55,8 +55,54 @@ body {
 
 
 /* main styles starts */
-.bonus-container{
+
+.bonus-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
+    text-align: center;
+
+}
+.bonus-container img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+.bonus-text {
+    margin-bottom: 50px;
+    padding: 0 400px;
+}
+
+.bonus-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bonus-desc {
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    color: rgba(39, 39, 39, 0.60);
+}
+.bonus-one {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 400px;
+}
+
+.bonus-two {
+    background: rgba(79, 34, 87, 0.862);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 400px;
+}
+
+.bonus-three {
+    background: rgba(175, 34, 38, 0.405);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 400px;
 }
