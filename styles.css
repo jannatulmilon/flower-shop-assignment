@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header styles starts */
+.header {
+    background-color: #E554731A;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-title {
+    text-align: left;
+    font-size: 50px;
+    width: 500px;
+    color: #272727;
+}
+
+.header-desc {
+    width: 600px;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+
+}
+
+.header-content {
+    width: 400px
+}
+
+.header-image {
+    width: 640;
+    height: 500px;
+}
+
+/* header styles ends */
