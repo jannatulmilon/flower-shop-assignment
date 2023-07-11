@@ -133,8 +133,9 @@ body {
 .bonus-name {
     text-decoration: underline;
 }
+
 /* hot deal styles */
-.hotdeal-container{
+.hotdeal-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,41 +143,50 @@ body {
     text-align: center;
     height: 350px;
 }
-.hotdeal-content{
+
+.hotdeal-content {
     width: 500px;
     margin: 0 auto;
 
 }
-.hotdeal-title{
+
+.hotdeal-title {
     font-size: 25px;
 }
-.off{
-    color:#E55473
+
+.off {
+    color: #E55473
 }
-.hotdeal-desc{
-   font-size: 10px;
-   color: #27272799;
+
+.hotdeal-desc {
+    font-size: 10px;
+    color: #27272799;
 }
-.hotdeal-flower{
+
+.hotdeal-flower {
     margin: 0 auto;
     height: 270px;
     padding: 100px 120px 100px 0px;
 }
+
 /* social site styles */
-.social-content{
+.social-content {
     text-align: center;
     margin: 100px auto;
     width: 500px;
 }
-.social-title{
+
+.social-title {
     font-size: 35px;
 }
-.social-desc{
+
+.social-desc {
     font-size: 13px;
     color: dimgrey;
     margin-top: 25px;
 }
-.flower-container{
+
+.flower-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -186,15 +196,18 @@ body {
     margin: 0 auto;
     padding-right: 110px;
 }
-.box{
+
+.box {
     width: 100px;
     margin: auto;
 }
-.flower{
+
+.flower {
     height: 250px;
     width: 250px;
 }
-.latest-deal{
+
+.latest-deal {
     margin: 100px auto;
     height: 300px;
     width: 1000px;
@@ -203,19 +216,23 @@ body {
     background-size: cover;
     text-align: center;
 }
-.latest-content{
+
+.latest-content {
     padding-top: 70px;
     padding-left: 50px;
 }
-.latest-title{
+
+.latest-title {
     font-size: 35px;
     font-style: normal;
 }
-.latest-desc{
+
+.latest-desc {
     font-size: 15px;
     color: dimgrey;
 }
-.email{
+
+.email {
     width: 800px;
     display: flex;
     align-items: center;
@@ -225,7 +242,8 @@ body {
     padding-left: 10px;
     border: 0;
 }
-.subscribe{
+
+.subscribe {
     margin-top: 20px;
     margin-left: 20px;
     padding: 15px 40px;
@@ -235,46 +253,53 @@ body {
     border-radius: 5px;
     font-size: 15px;
 }
-.about{
+
+.about {
     background-image: linear-gradient(to right, rgba(190, 7, 123, 0.459), rgb(193, 192, 192));
     height: 200px;
     text-align: center;
     padding: 50px;
     box-shadow: 5px 10px 15px rgb(61, 61, 61);
 }
-.about-title{
+
+.about-title {
     color: #272727;
 }
-.about-desc{
+
+.about-desc {
     font-size: 15px;
     margin-top: 20px;
     color: rgb(61, 61, 61);
 }
+
 /* footer styles */
-.footer{
+.footer {
     background-color: #111010;
     text-align: center;
     height: 300px;
 }
-.address{
+
+.address {
     font-size: 30px;
     color: rgb(56, 47, 49);
 }
-.footer-title{
+
+.footer-title {
     font-size: 40px;
     margin: 50px auto;
     padding-top: 80px;
-    color:antiquewhite  ;
+    color: antiquewhite;
 }
 
-.footer-desc{
+.footer-desc {
     font-size: 15px;
     width: 580px;
     margin: 20px auto;
-    color:rgba(255, 255, 255, 0.90);
+    color: rgba(255, 255, 255, 0.90);
     text-align: center;
 }
-.copyright{
+
+.copyright {
     font-size: 10px;
     margin-top: 20px;
     color: rgba(255, 255, 255, 0.40);
