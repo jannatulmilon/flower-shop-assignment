@@ -57,12 +57,14 @@ body {
 
 /* main styles starts */
 .bonus-content {
-    margin: 100px 380px;
+    width: 440px;
+    margin: 50px auto;
 }
 
 .bonus-title {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
 
 
 }
@@ -129,4 +131,33 @@ body {
 
 .bonus-name {
     text-decoration: underline;
+}
+/* hot deal styles */
+.hotdeal-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E554730D;
+    text-align: center;
+    height: 350px;
+}
+.hotdeal-content{
+    width: 500px;
+    margin: 0 auto;
+
+}
+.hotdeal-title{
+    font-size: 25px;
+}
+.off{
+    color:#E55473
+}
+.hotdeal-desc{
+   font-size: 10px;
+   color: #27272799;
+}
+.hotdeal-flower{
+    margin: 0 auto;
+    height: 270px;
+    padding: 100px 120px 100px 0px;
 }
