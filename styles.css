@@ -106,14 +106,15 @@ body {
     align-items: center;
     text-align: center;
     gap: 20px;
-    margin: 100px;
+    width: 400px;
+    margin: 0 auto;
     background-repeat: no-repeat;
     padding: 50px;
 
 }
 
 .img-one {
-    width: 350px;
+    width: 300px;
     height: 350px;
     margin-top: 100px;
 }
@@ -160,4 +161,36 @@ body {
     margin: 0 auto;
     height: 270px;
     padding: 100px 120px 100px 0px;
+}
+/* social site styles */
+.social-content{
+    text-align: center;
+    margin: 100px auto;
+    width: 500px;
+}
+.social-title{
+    font-size: 35px;
+}
+.social-desc{
+    font-size: 13px;
+    color: dimgrey;
+    margin-top: 25px;
+}
+.flower-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    text-align: center;
+    width: 1150px;
+    height: 250px;
+    margin-bottom: 150px;
+}
+.box{
+    width: 100px;
+    margin: auto;
+}
+.flower{
+    height: 250px;
+    width: 250px;
 }
