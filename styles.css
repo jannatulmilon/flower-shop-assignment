@@ -178,13 +178,13 @@ body {
 }
 .flower-container{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    gap: 5px;
     text-align: center;
-    width: 1150px;
-    height: 250px;
-    margin-bottom: 150px;
+    gap: 20px;
+    width: 1050px;
+    margin: 0 auto;
+    padding-right: 110px;
 }
 .box{
     width: 100px;
@@ -193,4 +193,45 @@ body {
 .flower{
     height: 250px;
     width: 250px;
+}
+.latest-deal{
+    margin: 100px auto;
+    height: 300px;
+    width: 1000px;
+    background-image: url('/flower/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.latest-content{
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.latest-title{
+    font-size: 35px;
+    font-style: normal;
+}
+.latest-desc{
+    font-size: 15px;
+    color: dimgrey;
+}
+.email{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding-left: 10px;
+    border: 0;
+}
+.subscribe{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 22px 40px;
+    border: 0;
+    background-color: #E55473;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-size: 15px;
 }
