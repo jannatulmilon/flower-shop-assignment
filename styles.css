@@ -78,7 +78,6 @@ body {
     height: 450px;
     background-color: #0597A026;
     border-radius: 300px 300px 0 0;
-    flex-shrink: 0;
 }
 .bonus-two{
     width: 400px;
@@ -105,7 +104,7 @@ body {
 
 }
 .img-one{
-    width: 340px;
+    width: 350px;
     height: 350px;
     margin-top: 100px;
 }
